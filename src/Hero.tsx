@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-background/50" />
 
       {/* Hero Content */}
-      <div className="relative z-9 -translate-y-10 mx-auto max-w-7xl text-center">
+      <div className="relative z-9 -translate-y-10  animate-fade-up mx-auto max-w-7xl text-center">
         <div className="mx-auto max-w-6xl">
           <p className="mb-1 font-mono text-lg uppercase tracking-[0.35em] text-gold">
             Open Source • Construction Tech
