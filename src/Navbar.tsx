@@ -8,19 +8,14 @@ export default function Navbar() {
         backdrop-blur-md
       "
     >
-      <div
-        className="
-          mx-auto flex h-[65px] max-w-7xl
-          items-center justify-between
-          px-6
-        "
-      >
+      
+      <div className="mx-auto flex h-[67px] max-w-full items-center justify-between px-8">
         <div className="flex items-center gap-4">
           <div>
             <h1
               className="
                 font-display
-                text-2xl
+                text-3xl
                 font-bold
                 tracking-wide
                 text-ink
@@ -28,13 +23,10 @@ export default function Navbar() {
             >
               CHISEL
             </h1>
-
           </div>
         </div>
 
-        {/* Links */}
-
-        <div className="hidden items-center gap-10 md:flex">
+        <div className="hidden items-center gap-12 md:flex">
           {[
             "Projects",
             "Blueprints",
@@ -47,7 +39,7 @@ export default function Navbar() {
               className="
                 relative
                 font-body
-                text-sm
+                text-base
                 text-faded
                 transition-all
                 duration-200
@@ -59,16 +51,13 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Actions */}
-
         <div className="flex items-center gap-4">
-
-
           <button
             className="
               bg-amber
-              px-5 py-2
+              px-7 py-2
               font-body
+              text-lg
               font-semibold
               text-paper
               transition-all
