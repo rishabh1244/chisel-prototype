@@ -8,7 +8,7 @@ export default function Navbar() {
         backdrop-blur-md
       "
     >
-      
+
       <div className="mx-auto flex h-[67px] max-w-full items-center justify-between px-8">
         <div className="flex items-center gap-4">
           <div>
